@@ -1,2 +1,0 @@
-# Stride-Markets
-Stride Markets
