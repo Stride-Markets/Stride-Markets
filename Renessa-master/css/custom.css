@@ -181,15 +181,14 @@ iframe
     z-index: 9999;
 }
 /*Ivan's changes*/
-/*
 #wrapper
 {
-    background: url(../img/home.jpg);
+    background: url(../img/home3.jpg);
     background-attachment: fixed;
     background-position: center;
-    background-size: cover;
+    background-size: cover;      
 }
-*/
+
 #overlay-1
 {
     background-color: rgba(40, 40, 40, 0.6);
@@ -953,7 +952,7 @@ form
     #price_table li {
         display:table-cell;
         width:33.333%;
-        padding:43px 0 0;
+        padding:43px 20px;
         transition: all 0.25s, color 0s !important;
         position:relative;
         z-index:0;
@@ -1081,13 +1080,6 @@ form
     }
 
     /*Ivan's changes*/
-    #starting{
-        background: url(../img/home3.jpg);
-        background-attachment: fixed;
-        background-position: center;
-        background-size: cover;        
-    }
-
     #navigation, .navbar-default {
         background-color: rgb(255 255 255 / 80%);
         border-bottom: #2E506F 3px solid;

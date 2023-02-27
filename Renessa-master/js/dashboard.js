@@ -50,6 +50,7 @@ $(function() {
     $(".knob").knob();
 
     //jvectormap data
+    /*
     var visitorsData = {
         "US": 398, //USA
         "SA": 400, //Saudi Arabia
@@ -122,9 +123,11 @@ $(function() {
     $('#chat-box').slimScroll({
         height: '250px'
     });
+    */
 
     /* Morris.js Charts */
     // Sales chart
+    /*
     var area = new Morris.Area({
         element: 'revenue-chart',
         resize: true,
@@ -188,6 +191,7 @@ $(function() {
         ],
         hideHover: 'auto'
     });
+    */
     /*Bar chart
     var bar = new Morris.Bar({
         element: 'bar-chart',
@@ -208,13 +212,16 @@ $(function() {
         hideHover: 'auto'
     });*/
     //Fix for charts under tabs
+    /*
     $('.box ul.nav a').on('shown.bs.tab', function(e) {
         area.redraw();
         donut.redraw();
     });
+    */
 
 
     /* BOX REFRESH PLUGIN EXAMPLE (usage with morris charts) */
+    /*
     $("#loading-example").boxRefresh({
         source: "ajax/dashboard-boxrefresh-demo.php",
         onLoadDone: function(box) {
@@ -238,8 +245,10 @@ $(function() {
             });
         }
     });
+    */
 
     /* The todo list plugin */
+    /*
     $(".todo-list").todolist({
         onCheck: function(ele) {
             //console.log("The element has been checked")
@@ -248,5 +257,6 @@ $(function() {
             //console.log("The element has been unchecked")
         }
     });
+    */
 
 });

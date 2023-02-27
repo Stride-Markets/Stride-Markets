@@ -36,6 +36,7 @@ $(function() {
 
     var setHomeBannerHeight = function(){
         var homeHeight= $(window).height();
+        console.log(homeHeight);
         $('#overlay-1').height(homeHeight);
     }
 
